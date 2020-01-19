@@ -18,8 +18,8 @@ print('Reading ADS1x15 channel 0')
 plt.figure(figsize=(8,8))
 #create the figure function
 def makeFig():
-    plt.ylim(-5000,5000)
-    plt.ylim(-30e3,30e3)
+    plt.ylim(-2000,2000)
+    #plt.ylim(-30e3,30e3)
     plt.title('Osciloscope')
     plt.grid(True)
     plt.ylabel('ADC outputs')
